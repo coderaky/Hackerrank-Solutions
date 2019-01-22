@@ -1,3 +1,18 @@
+100 % working ,Simple and easy :-)
+Here's in 3 line in Python 3
+
 l= [[input(), float(input())] for _ in range(int(input()))]
 sh = sorted(list(set([m for name, m in l])))[1]
 print('\n'.join([a for a,b in sorted(l) if b == sh]))
+Explanation :
+1line - input the list
+
+i.e. [[Harry,37.21],[Berry,37.21],[Tina,37.2],[Akriti,41],[Harsh,39]]
+
+2nd line - finding the second highest no in list
+
+i.e. 37.21
+
+3dr line - printing the name with second highest no
+
+i.e. Harry , Berry

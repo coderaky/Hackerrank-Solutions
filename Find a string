@@ -1,0 +1,1 @@
+def count_substring(s, sb):return(sum([1 for i in range(len(s)) if(s[i:i+len(sb)]==sb)]))
